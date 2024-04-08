@@ -125,7 +125,7 @@ body {
   }
   .titulo {
     color: #363636;
-    margin-top: -40px;
+    margin-top: -30px;
   }
   .titulo h2 {
     color: #505050
@@ -139,13 +139,14 @@ body {
    position: absolute;
   }
   .insta img {
-    top: 20px;
-    right: 20px;
+    top: 30px;
+    right: 25px;
+    height: 40px;
   }
   .face img {
-    top: 70px;
-    right: 18px;
-    height: 40px;
+    top: 80px;
+    right: 23px;
+    height: 42px;
   }
   .botoes a{
     border-color: #000000;
