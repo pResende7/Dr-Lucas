@@ -12,18 +12,18 @@ body {
   background-size: 1300px 1600px;
 }
 .logo {
- 
   display: grid;
   justify-content: center;
   margin-top: 71px;
   margin-bottom: 30px;
   align-content: center;
+  
 }
 .logo img {
   border: solid 5px #dfdfdf;
   border-radius: 50%;
-  width: 200px;
-  height: 250px;
+  width: 170px;
+  height: auto;
 }
 .titulo {
   font-family: "Lato", sans-serif;
@@ -106,13 +106,12 @@ body {
     width: 100%;;
   }
   .logo {
-    margin-top: 0px;
+    margin-top: -60px;
+    margin-bottom: 30px;
     justify-content: center;
     align-content: center;
-    height: 400px;
-    background-image: url(./img/perfilprof.PNG);
-    background-size: 110%;
-    background-position: bottom 20px;
+    height: 500px;
+    background-image: url(./img/perfilprof2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
   }
