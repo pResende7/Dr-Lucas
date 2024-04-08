@@ -9,12 +9,13 @@ html {
 body {
   margin: 0px;
   background-image: linear-gradient(180deg, #252525 0, #1a1a1a 25%, #000000 50%, #000000 75%, #000000 100%);
+  background-size: 1300px 1600px;
 }
 .logo {
-  gap: 40px;
+ 
   display: grid;
   justify-content: center;
-  margin-top: 150px;
+  margin-top: 71px;
   margin-bottom: 30px;
   align-content: center;
 }
@@ -29,7 +30,6 @@ body {
   font-weight: 400;
   font-style: normal;
   text-align: center;
-  line-height: 15px;
   padding-bottom: 20px;
   color: rgba(255, 255, 255, 0.959);
   letter-spacing: 1px;
@@ -42,7 +42,7 @@ body {
   grid-template-columns: 500px;
   gap: 20px;
   justify-content: center;
-  
+  padding-bottom: 30px;
 }
 .botoes a {
   font-family: "Nunito", sans-serif;
@@ -68,60 +68,29 @@ body {
   transition: 0.3s;
 }
 .icones {
-  padding: 20px;
+  
   display: flex;
   justify-content: center;
-  margin-left: 450px;
+ 
 }
 .icones a {
-  margin: 10px 25px 10px 25px;
+  margin: 0px 9px 0px 9px;
   flex-direction: row-reverse;
-  width: 10px;
-}
-.icones img {
-  max-width: 200px;
+  
 }
 .icones img:hover {
   transform: rotate(360deg);
   transition: 2s;
 }
-.face img {
+.face img,
+.insta img {
   width: auto;
   height: 38px;
   margin-top: -3.5px;
 }
+
 @media (max-width: 500px) {
-  .icones {
-    top: -13px;
-    margin-left: 180px;
-    position: relative;
-  }
-  .icones img {
-    width: 40px;
-  }
-  .insta {
-    display: none;
-  }
-  .face {
-    display: none;
-    position: absolute;
-    right: 70px;
-  }
-  .insta2, 
-  .face2 {
-    display: block;
-    width: 10px;
-  }
-  .insta2 img, 
-  .face2 img {
-    width: auto;
-    height: 33px;
-  }
-  .face2 img {
-    width: auto;
-    height: 41px;
-    margin-top: -6px;
-  }
+
   .botoes a {
     width: 300px;
     padding: 15px 15px 15px 15px;
@@ -156,16 +125,32 @@ body {
   }
   .titulo {
     color: #363636;
-    margin-top: -20px;
-    box-shadow: 0px -20px 30px 30px rgb(255, 255, 255);
+    margin-top: -40px;
   }
   .titulo h2 {
     color: #505050
   }
+  .icones {
+    padding-top: 17px;
+    margin-top: -20px;
+    box-shadow: 0px -20px 30px 30px rgb(255, 255, 255);
+  }
+  .icones img {
+   position: absolute;
+  }
+  .insta img {
+    top: 20px;
+    right: 20px;
+  }
+  .face img {
+    top: 70px;
+    right: 18px;
+    height: 40px;
+  }
   .botoes a{
-    border-color: #100C20;
-    color:   #100C20;
-    background-color: #fff;
+    border-color: #000000;
+    color:   #000000;
+    background-color: #ffffff;
   }
   .botoes a:hover {
     color: white;
