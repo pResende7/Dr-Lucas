@@ -124,9 +124,10 @@ body {
   .titulo {
     color: #363636;
     margin-top: -30px;
+    
   }
   .titulo h2 {
-    color: #505050
+    color: #505050;
   }
   .icones {
     padding-top: 17px;
